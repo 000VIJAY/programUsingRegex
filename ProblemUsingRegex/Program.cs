@@ -4,3 +4,7 @@ GetPattern.ValidateFirstName("Vijay");
 Console.WriteLine("Valid Name : " + GetPattern.ValidateFirstName("Vijay"));
 GetPattern.validateLastName("Kumar");
 Console.WriteLine("valid Last Name: " +GetPattern.validateLastName("Kumar"));
+Console.WriteLine("Enter your email");
+string email = Console.ReadLine();
+GetPattern.validateEmail("Your email " +email);
+Console.WriteLine("Valid Email : " +GetPattern.validateEmail(email));
