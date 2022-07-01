@@ -8,3 +8,6 @@ Console.WriteLine("Enter your email");
 string email = Console.ReadLine();
 GetPattern.validateEmail("Your email " +email);
 Console.WriteLine("Valid Email : " +GetPattern.validateEmail(email));
+Console.WriteLine("Enter your Mobile Number");
+string mobile = Console.ReadLine();
+Console.WriteLine("Validate Mobile Number : " +GetPattern.ValidateMobileNumber(mobile));
